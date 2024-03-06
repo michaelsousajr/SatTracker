@@ -2,7 +2,7 @@
 
 A Python application that tracks the position of satellites and provides a 2D visualization using Tkinter and Pygame.
 
-![Satellite Tracker Preview](assets/screenshot.png)
+![Satellite Tracker Preview](assets/sattracker.png)
 
 ## Features
 
