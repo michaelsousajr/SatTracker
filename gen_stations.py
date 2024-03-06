@@ -7,7 +7,25 @@ def generate_stations_file():
     satellites = load.tle_file(satellites_url)
 
     # Get the latest TLE data for the ISS
-    tle_lines = satellites["ISS (ZARYA)"].text()
+    tle_lines = satellites = [
+        "ISS (ZARYA)",
+        "ISS DEB",
+        "CSS (TIANHE)",
+        "ISS (NUAKA)",
+        "FREGAT DEB",
+        "CSS (WENTIAN)",
+        "CSS (MENGTIAN)",
+        "CREW DRAGON 7",
+        "SOYUZ-MS 24",
+        "SHENZOU-17 (SZ-17)",
+        "PROGRESS-MS 25",
+        "BEAK",
+        "CLARK SAT-1",
+        "TIANZHOU-7",
+        "CYGNUS NG-20",
+        "PROGRESS-MS 26",
+        "CREW DRAGON 8",
+    ].text()
 
     # Save the TLE data to stations.txt
     with open("stations.txt", "w") as file:

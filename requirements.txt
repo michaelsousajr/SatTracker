@@ -1,0 +1,3 @@
+pygame==2.5.2
+skyfield==1.45
+geocoder==1.38.1
